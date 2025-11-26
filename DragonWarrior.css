@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    justify-content: center;
+}
+.name-div{
+    display: grid;
+    justify-content: center;
+}
+.name{
+    color: rgb(241, 213, 59) ;
+    font-size: 50px;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+.outline{
+    width: 1000px;
+    height: 500px;
+    margin-top: 15px;
+    background-color: rgb(67, 67, 67);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(125, 125, 125);
+}
+
+.header{
+    background-color: rgb(29, 29, 29);
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: solid rgb(136, 136, 136);
+}
+
+.values{
+    font-size: 18px;
+    color: rgb(251, 231, 193);
+}
+
+.buttons-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 11%;
+    background-color:rgb(54, 54, 54) ;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid rgb(136, 136, 136);
+}
+.button{
+    width: 20%;
+    border-radius: 25%;
+    background-color: black;
+    color: wheat;
+    border: solid rgb(188, 175, 104) ;
+    font-size: 14px;
+}
+.button:hover{
+    background-color: rgb(21, 21, 21);
+    transition: 0.3s;
+    cursor: pointer;
+    border-color: red;
+    color: rgb(255, 228, 74);
+}
+.button:active{
+    background-color: black;
+    color: wheat;
+    border: solid rgb(188, 175, 104) ;
+    transition: 0.2s;
+}
+
+.space{
+    height: 72% ;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    background-color: black;
+
+}
+#stats{
+     display: none;
+}
+#stats.flex{
+    background-color: rgb(64, 64, 64);
+    border-bottom:solid gray 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(200, 184, 93);
+}
+
+.instructions{
+    background-color: black;
+    color: rgb(247, 207, 134);
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
